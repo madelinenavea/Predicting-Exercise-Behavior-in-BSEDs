@@ -1,0 +1,40 @@
+---
+author: "Madeline Navea"
+title: "ABCT 2024"
+output: html_document
+date: "2024-05-14"
+---
+
+```{r setup}
+library(foreign) #to read spss file
+library(tidyverse) #data manipulation
+library(RColorBrewer) #colors
+library(wesanderson) #colors
+library(ggplot2) #data visualization/plotting
+```
+
+
+```{r}
+df <- read.spss("Raw data/NaveaM - CBT combined data sets_02_29_24.sav", to.data.frame = T, use.value.labels = F)
+plot.df <- df %>% 
+  dplyr::select(Participant_IDNumber, A1_BDI_6, A1_BDI_8, A1_EDE_DrivenExM1_d, PostTx_EDEDrivenExM1_d, Imputation_) %>% 
+  filter(Imputation_ == 0)
+
+table(plot.df$PostTx_EDEDrivenExM1_d)
+
+#Official graph
+ggplot(plot.df, aes(y = PostTx_EDEDrivenExM1_d)) + 
+  geom_smooth(aes(x = A1_BDI_6, color = "Punishment Feelings", fill = "Punishment Feelings"), method = "lm", se = TRUE, size = 1) +
+  geom_smooth(aes(x = A1_BDI_8, color = "Self-criticism", fill = "Self-criticism"), method = "lm", se = TRUE, size = 1) +
+  scale_color_manual(name = "BDI Items", 
+                     values = c("Punishment Feelings" = wes_palette(n = 1, "GrandBudapest2"), 
+                                "Self-criticism" = wes_palette(n = 1, "Chevalier1"))) +
+  scale_fill_manual(name = "BDI Items", 
+                    values = c("Punishment Feelings" = wes_palette(n = 1, "GrandBudapest2"), 
+                               "Self-criticism" = wes_palette(n = 1, "Chevalier1"))) + 
+  labs(y = "Driven Exercise", x = "BDI Items", title = "BDI Items Predict Driven Exercise") +
+  theme_bw() +
+  theme(legend.position = "right", plot.title = element_text(hjust = .5))
+ggsave("Outputs/plot.df.jpg", dpi = 2000)
+```
+```
