@@ -11,7 +11,7 @@ Using multiple linear regression to examine how certain depression symptoms pred
 
 This project explores the **predictive power of depressive symptomatology—specifically self-criticism (SC) and punishment feelings (PF)**—on treatment outcomes in individuals with **binge-spectrum eating disorders (BSEDs)**. Our focus lies in applying **multiple linear regression models** to clinical data to assess whether baseline SC and PF predict behavioral outcomes following enhanced cognitive behavioral therapy (CBT-E).
 
-This repository reframes the original clinical research project within a **data science context**, using transparent modeling techniques, reproducible analysis pipelines, and a forward-looking approach toward personalized mental health treatment.
+This repository reframes the original clinical research project using transparent modeling techniques, reproducible analysis pipelines, and a forward-looking approach toward personalized mental health treatment.
 
 ---
 
@@ -45,7 +45,7 @@ This repository reframes the original clinical research project within a **data 
   - Self-Induced Vomiting Episodes
   - Driven Exercise Days
 
-> ⚠️ **Note**: Due to privacy restrictions, actual data may be synthetic or simulated for replication purposes.
+> ⚠️ **Note**: Data that support the findings of this study are available from the corresponding authors upon reasonable request. Code and data visualizations are available to download.
 
 ---
 
@@ -64,7 +64,7 @@ This repository reframes the original clinical research project within a **data 
 - **Modeling Approach:** Multiple linear regression
 - **Control Variables:** Study, gender, baseline pathology
 - **Evaluation Metrics:** Regression coefficients, p-values, R², residual analysis
-- **Tools Used:** `pandas`, `statsmodels`, `scikit-learn`, `matplotlib`, `seaborn`
+- **Tools Used:** `stats`, `tidyverse`, `ggplot`
 
 ---
 
