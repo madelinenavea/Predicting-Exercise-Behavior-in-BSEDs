@@ -1,9 +1,11 @@
 # 🧠 Predictive-Modeling-of-Eating-Disorder-Behaviors
 Using multiple linear regression to examine how certain depression symptoms predict eating disorder behaviors.
 
-**Project Title:** Self-Criticism and Punishment Feelings Predict Driven Exercise at Post-Treatment in Adults with Binge-Spectrum Eating Disorders  
+---
+
+**Conference Project Title:** Self-Criticism and Punishment Feelings Predict Driven Exercise at Post-Treatment in Adults with Binge-Spectrum Eating Disorders  
 **Authors:** Madeline Navea, Lucy Wetherall, Devyn Riddle, Ross Sonnenblick, Stephanie Manasse, & Adrienne Juarascio  
-**Conferences this project was presented at:** Associations for Behavioral and Cognitive Therapies Conference 2024
+**Conferences Presented Work At:** Associations for Behavioral and Cognitive Therapies Conference 2024
 
 ---
 
