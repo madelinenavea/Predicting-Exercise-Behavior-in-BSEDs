@@ -3,7 +3,7 @@ Using multiple linear regression to examine how certain depression symptoms pred
 
 **Project Title:** Self-Criticism and Punishment Feelings Predict Driven Exercise at Post-Treatment in Adults with Binge-Spectrum Eating Disorders  
 **Authors:** Madeline Navea, Lucy Wetherall, Devyn Riddle, Ross Sonnenblick, Stephanie Manasse, & Adrienne Juarascio  
-**Conferences I presented at:** ABCT 2024
+**Conferences this project was presented at:** Associations for Behavioral and Cognitive Therapies Conference 2024
 
 ---
 
