@@ -49,16 +49,6 @@ This project explores the **predictive power of depressive symptomatology—spec
 
 ---
 
-## 📦 Repository Structure
-📁 data/ <- (Simulated) dataset and metadata
-📁 notebooks/ <- Jupyter notebooks for EDA, modeling, and visualization
-📁 models/ <- Trained regression models and diagnostics
-📁 scripts/ <- Preprocessing and model training scripts
-📄 requirements.txt <- Python dependencies
-📄 README.md <- This file
-
----
-
 ## 🔍 Methods
 
 - **Modeling Approach:** Multiple linear regression
